@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
-}
+@media only screen and (min-width: 1350px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  .App{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  }
+  body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+  .links{
+    height: 100%;
+    width: 50%;
+
+  }
+
+  .linksMitte{
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  .channel{
+    font-size: 60px;
+    padding: 20px;
+  }
+  .vidTitle{
+    font-size: 2vw;
+    padding: 20px 0px 20px 20px
+  }
+  .uploaded{
+    font-size: 1vw;
+  }
+  .views{
+    font-size: 3vw;
+    color: red;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .rechts{
+    height: 100%;
+    width: 50%;
+  }
+  .rechtsMitte{
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  .buttons{
+    position: absolute;
+    right: 15%;
+
+  }
+  button{
+    display: block;
+    padding: 15px;
+    margin-top: 2vh;
+    font-size: 3vh;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 32vw;
+
+
+  }
+  img{
+    min-width: 20vw;
+    min-height: 20vw;
+    margin: 20px 0px;
+    padding: 0px 60px;
+    border: 5px solid white;
+  }
+  .points{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+  }
+  .mid{
+    background-color: white;
+    min-width: 5px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1350px) {
+  *{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
   }
-  to {
-    transform: rotate(360deg);
+  .App{
+    padding: 2vw;
+    margin: 2vw;
+  }
+  button{
+    padding: 1vw 5vw;
+    border: 1px solid white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 3vw;
+  }
+  img{
+    width: 35vw;
+    height: 26.25vw;
+    padding: 0px 60px;
+    border: 3px solid white;
+  }
+  .points{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 3vw;
   }
 }
