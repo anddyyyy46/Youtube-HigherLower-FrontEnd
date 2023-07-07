@@ -5,7 +5,7 @@ let viewsVid1;
 let viewsVid2;
 
 function App() {
-  const staniURL = "https://youtube-higher-lower-api.vercel.app/getViewsThumbnail"
+  const staniURL = process.env.API_URL
   const [clicksShown, setClicksShown] = useState(false)
   const [vid1, setVid1] = useState({})
   const [vid2, setVid2] = useState({})
