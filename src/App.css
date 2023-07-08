@@ -44,7 +44,7 @@
   }
   .views{
     font-size: 3vw;
-    color: red;
+    color: white;
     font-weight: bold;
     padding: 20px;
   }
@@ -120,8 +120,6 @@
   img{
     width: 35vw;
     height: 26.25vw;
-    padding: 0px 60px;
-    border: 3px solid white;
   }
   .points{
     position: absolute;
@@ -130,4 +128,20 @@
     color: white;
     font-size: 3vw;
   }
+}
+button:hover{
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+.greenViews{
+  font-size: 3vw;
+  color: green;
+  font-weight: bold;
+  padding: 20px;
+}
+.redViews{
+  font-size: 3vw;
+  color: red;
+  font-weight: bold;
+  padding: 20px;
 }
