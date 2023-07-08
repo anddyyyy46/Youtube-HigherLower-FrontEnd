@@ -97,7 +97,7 @@ function App() {
             {clicksShown ? <h1 className={result ? 'greenViews':'redViews'}>Views: {vid2.views}</h1> : <div className='buttons'><button onClick={()=>update(true)}>higher</button> <button onClick={()=>update(false)}>lower</button></div>}
           </div>
         </div>
-        <h3 className='points'>Punkte: {points}</h3>
+        <h3 className='points'>Score: {points}</h3>
     </div>
   );
 }
