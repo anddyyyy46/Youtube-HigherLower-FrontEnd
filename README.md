@@ -8,6 +8,10 @@ This is a HigherLower game with youtube video views from diffrent german and ame
   cd Youtube-HigherLower-FrontEnd
   npm install 
 ```
+and run to run it:
+```
+npm start
+```
 
 ## Preview:
 
