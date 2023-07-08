@@ -1,4 +1,6 @@
 # Youtube-HigherLower-FrontEnd
 
 Preview:
-![image](https://github.com/anddyyyy46/Youtube-HigherLower-FrontEnd/assets/132681533/9c3e19da-9df9-4edb-97b2-9ccb1543ef00)
+![image](https://github.com/anddyyyy46/Youtube-HigherLower-FrontEnd/assets/132681533/2d4d2ceb-39c8-474a-977f-0f77f323d2c9) ![image](https://github.com/anddyyyy46/Youtube-HigherLower-FrontEnd/assets/132681533/74f65514-2fa9-44e9-9a0a-091fd74a3e67)
+
+
