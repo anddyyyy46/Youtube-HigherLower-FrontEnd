@@ -5,6 +5,7 @@ This is a HigherLower game with youtube video views from diffrent german and ame
 ## Installation:
 ```
   git clone https://github.com/anddyyyy46/Youtube-HigherLower-FrontEnd.git
+  cd Youtube-HigherLower-FrontEnd
   npm install 
 ```
 
