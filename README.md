@@ -2,7 +2,6 @@
 
 This is a HigherLower game with youtube video views from diffrent german and american youtube channels. It's using the API from my Youtube-HigherLower-API repository.
 
-**Live-Demo https://youtube-higher-lower-frontend.vercel.app/**
 ### Live-Demo https://youtube-higher-lower-frontend.vercel.app/
 
 
