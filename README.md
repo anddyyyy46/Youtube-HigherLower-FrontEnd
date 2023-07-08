@@ -1,6 +1,11 @@
 # Youtube-HigherLower-FrontEnd
 
-Preview:
+This is a HigherLower game with youtube video views from diffrent german and american youtube channels. It's using the API from my Youtube-HigherLower-API repository.
+
+# Installation:
+  git clone 
+
+# Preview:
 
 <img src="https://github.com/anddyyyy46/Youtube-HigherLower-FrontEnd/assets/132681533/2d4d2ceb-39c8-474a-977f-0f77f323d2c9">
 <p float="center">
