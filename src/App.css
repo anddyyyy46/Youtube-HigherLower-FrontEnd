@@ -3,21 +3,21 @@
     padding: 0;
     margin: 0;
   }
+
   .App{
     display: flex;
     height: 100vh;
     width: 100%;
     background-color: black;
-
-
   }
+
   body {
     overflow: hidden; /* Hide scrollbars */
   }
+
   .links{
     height: 100%;
     width: 50%;
-
   }
 
   .linksMitte{
@@ -31,27 +31,33 @@
     text-align: center;
     color: white;
   }
+
   .channel{
     font-size: 60px;
     padding: 20px;
   }
+
   .vidTitle{
     font-size: 2vw;
     padding: 20px 0px 20px 20px
   }
+
   .uploaded{
     font-size: 1vw;
   }
+
   .views{
     font-size: 3vw;
     color: white;
     font-weight: bold;
     padding: 20px;
   }
+
   .rechts{
     height: 100%;
     width: 50%;
   }
+
   .rechtsMitte{
     width: 45%;
     height: 85%;
@@ -63,11 +69,12 @@
     text-align: center;
     color: white;
   }
+
   .buttons{
     position: absolute;
     right: 15%;
-
   }
+
   button{
     display: block;
     padding: 15px;
@@ -78,9 +85,8 @@
     border: 2px solid white;
     border-radius: 15px;
     width: 32vw;
-
-
   }
+
   img{
     min-width: 20vw;
     min-height: 20vw;
@@ -88,11 +94,13 @@
     padding: 0px 60px;
     border: 5px solid white;
   }
+
   .points{
     position: absolute;
     color: white;
     font-size: 50px;
   }
+
   .mid{
     background-color: white;
     min-width: 5px;
@@ -106,10 +114,12 @@
     text-align: center;
     font-size: 2.5vw;
   }
+
   .App{
     padding: 2vw;
     margin: 2vw;
   }
+
   button{
     padding: 1vw 5vw;
     border: 1px solid white;
@@ -117,10 +127,12 @@
     font-weight: bold;
     margin: 3vw;
   }
+
   img{
     width: 35vw;
     height: 26.25vw;
   }
+
   .points{
     position: absolute;
     top: 0;
@@ -129,16 +141,19 @@
     font-size: 3vw;
   }
 }
+
 button:hover{
   cursor: pointer;
   background-color: #3b3b3b;
 }
+
 .greenViews{
   font-size: 3vw;
   color: green;
   font-weight: bold;
   padding: 20px;
 }
+
 .redViews{
   font-size: 3vw;
   color: red;
