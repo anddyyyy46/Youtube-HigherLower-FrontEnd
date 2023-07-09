@@ -11,7 +11,7 @@ git clone https://github.com/anddyyyy46/Youtube-HigherLower-FrontEnd.git
 cd Youtube-HigherLower-FrontEnd
 npm install 
 ```
-and run to run it:
+and to run it:
 ```
 npm start
 ```
